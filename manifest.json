@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Prompt Saver",
+  "version": "1.0",
+  "description": "Save and copy frequently used prompts",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
